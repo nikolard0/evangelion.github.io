@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Michroma&display=swap
+);
+
+body{
+    font-family: Michroma, serif;
+    background: radial-gradient( aquamarine 20%, #0000fd 80%);
+}
+
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: wheat;
+}
+
+.navbar-brand img{
+    max-width: 50px;
+}
+
+.navbar-toggler {
+    background-color: wheat;
+}
+
+/* .navbar-nav>li>p {
+    color: aquamarine;
+    display: flex;
+    margin-top: 0.5em;
+    padding-left: 18em;
+} */
+
+
+.sidebar{
+    margin-right: 1px;
+    color:black;
+    border-style: solid;
+    border-width: 1px;
+    background: radial-gradient( aquamarine 1%, #ffffff 90%);
+
+}
+
+.sidebar a {
+    color:gray;
+}
+
+footer>audio{
+    margin: 1em;
+}
+
+.carousel {
+    height: 300px;
+}
+
+
+
+.slide-text, .footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+.mw-100 {
+    max-height: 250px;
+}
+
+footer, .btn-primary{
+    background-color: black;
+}
+
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.call-anim:hover {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
